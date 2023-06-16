@@ -1,0 +1,17 @@
+
+// Variables
+@import "./variable.scss";
+
+//base setup
+@import "./base/mixins";
+@import "./base/colors";
+@import "./base/typography";
+
+//pages
+@import "./global.scss";
+
+//components
+@import "./header.scss";
+
+//Institution
+@import "./institution.scss";

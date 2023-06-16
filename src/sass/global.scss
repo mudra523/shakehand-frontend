@@ -1,0 +1,46 @@
+.main_layout {
+  margin-top: 10vh;
+  min-height: 80vh !important;
+}
+
+.app_footer {
+  bottom: 0 !important;
+  margin-bottom: 0 !important;
+
+  .footer_left {
+    text-align: left;
+  }
+  .footer_center {
+    text-align: center;
+  }
+  .footer_right {
+    text-align: right;
+  }
+
+  @media (max-width: 768px) {
+    padding: 1em 0 !important;
+    .footer_left,
+    .footer_center,
+    .footer_right {
+      text-align: center;
+    }
+  }
+}
+
+.green_button {
+  background-color: $green;
+  color: white !important;
+  border: 0px !important;
+  border-radius: 5px !important;
+  padding: 5px 20px 5px 20px !important;
+}
+.green_button:hover {
+  background-color: $dark_green;
+}
+
+.custom_upload {
+  .ant-form-item .ant-upload {
+    padding: 10px !important;
+    color: white !important;
+  }
+}

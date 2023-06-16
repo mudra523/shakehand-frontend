@@ -1,0 +1,59 @@
+// Colors
+
+$blue: #072035;
+$dark_green: #087260;
+$light_green: #a7ff83;
+$green:#17b978;
+$pink: #fc5185;
+$yellow: #f4e409;
+$red: #ff4340;
+$app_color: #070708;
+$whitesmoke: #f5f5f5;
+$light_gray: #c4c4c4;
+$gray: #A5A5A5;
+$dark_gray: #797979;
+
+$colors: (
+    blue: $blue,
+    dark_green:$dark_green,
+    light_green: $light_green,
+    green:$green,
+    pink: $pink,    
+    yellow: $yellow,
+    red: $red,
+    app_color: $app_color,
+    whitesmoke:$whitesmoke,
+    light_gray: $light_gray,
+    gray: $gray,
+    dark_gray: $dark_gray,
+    white: #fff,
+    black: #000
+);
+
+// font weight
+$weight: (
+    regular: 400,
+    semibold: 500,
+    bold: 700
+);
+
+//font size
+$typography: (
+    small: 12px,
+    medium: 14px,
+    normal: 16px,
+    large: 18px,
+    xlarge: 24px,
+    xxlarge: 45px,
+    xxxlarge: 50px
+);
+
+//text align
+$textalign: (
+    left: left,
+    center: center,
+    right: right
+);
+
+//border
+
